@@ -1,3 +1,48 @@
 body {
   background: blanchedalmond;
 }
+
+* { 
+  border: 1px solid black;
+
+}
+.container { 
+  display: flex; 
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  width: auto; 
+}
+
+.container { 
+  font-size: 50px;
+}
+.a , .b , .c { 
+justify-content: space-between;
+
+}
+
+
+.b { 
+  flex-grow: 2;
+  order: 2;
+}
+
+.c { 
+
+
+
+}
+
+
+
+
+@media screen and (min-width:600px) {
+ .container { 
+  display:flex; 
+  flex-direction: row;
+  justify-content: space-evenly; 
+  width: auto; 
+
+ }
+}
